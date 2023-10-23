@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    width: 300px;
+    height: 300px;
+    border: .1rem solid;
+    background: rgb(103, 103, 214);
+    position: relative;
+}
+
+.btn{
+    padding: .3rem 2rem;
+    position: absolute;   
+}
+
+
+.time, .result{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+.hide{
+    display: none !important;
+}
+
+
+
+
+
